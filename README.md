@@ -1,10 +1,11 @@
 # acceptance-test
 Thank you for giving me the opportunity to work on Xero's coding exercise. I really had fun while implementing this solution.
 
-#About the framework
+# About the framework
 
-*Language* - TypeScript
-*Testing Framework* - Webdriver IO  (wdio-jasmine) - http://webdriver.io/
+##### *Language* - TypeScript
+
+##### *Testing Framework* - Webdriver IO  (wdio-jasmine) - http://webdriver.io/
 
 This framework follows the page object model. If a test fails - it will store the screenshot in the `./output` directory.
 
@@ -36,9 +37,9 @@ This framework is capable of running tests in parallel - currently it has been d
 
 1.	`cd acceptance-test`
 1.	Complie the code
-```tsc
-```
+	```bash
+	tsc
 1.	Run the test
 ```bash
-npx wdio --specs```
+npx wdio --specs
 
