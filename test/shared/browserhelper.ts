@@ -1,6 +1,5 @@
 import { EnvironmentData } from '../shared/global/environment_data';
 
-
 export interface IElement {
 	selector: string;
 	requiredFieldText?: string;
