@@ -25,7 +25,7 @@ This framework is capable of running tests in parallel - currently it has been d
 1.	Install selenium drivers `npx selenium-standalone install` ( *Note If `npx selenium-standalone` is not recognized, please install `selenium-standalone` globally `npm install selenium-standalone@latest -g`*)
 1.	Start Selenium `npx selenium-standalone start`
 1.	Complie the code `tsc`
-1.	Test if the setup works my running `npx wdio --specs`
+1.	Test if the setup works by running `npx wdio --specs`
 
 # Setting up Selenium Grid (*Optional*)
 
@@ -37,7 +37,7 @@ This framework is capable of running tests in parallel - currently it has been d
 # Running tests
 
 1.	`cd acceptance-test`
-1.	Complie the code
+1.	Compile the code
 	```bash
 	tsc
 1.	Run the test
