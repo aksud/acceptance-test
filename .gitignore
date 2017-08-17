@@ -1,0 +1,7 @@
+# Error Shots #
+*.png
+
+# TS generated files #
+*.d.ts
+*.js.map
+*.js
