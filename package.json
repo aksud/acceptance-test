@@ -8,6 +8,7 @@
         "@types/jasmine": "^2.5.53",
         "@types/webdriverio": "^4.8.0",
         "chance": "^1.0.10",
+        "selenium-standalone": "^6.7.0",
         "tslint": "^5.5.0",
         "typings": "^2.1.1",
         "wdio-jasmine-framework": "^0.3.1",
