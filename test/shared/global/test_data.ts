@@ -18,7 +18,7 @@ export class UserData {
 			email: 'sudakshay@gmail.com',
 			password: 'Password1',
 			searchBarInput: 'ANZ',
-			accountName: 'Akshay ANZ' + _chance.integer({ min: 1, max: 100 }),
+			accountName: 'Akshay ANZ' + _chance.integer({ min: 1, max: 1000 }),
 			accountNumber: _chance.string({
 				pool: '123456789',
 				length: 8

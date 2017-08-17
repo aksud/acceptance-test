@@ -4,12 +4,17 @@ import { IElement } from '../../shared/browserhelper';
 export interface IBankAccountPageElements {
 	AddAccount: IElement;
 	BankAccountSuccess: IElement;
+	BankAccountUrl: IElement;
 }
 
 export class BankAccountPageElements implements IBankAccountPageElements {
 
 	readonly AddAccount: IElement = {
 		selector: 'span.text'
+	};
+
+	readonly BankAccountUrl: IElement = {
+		selector: 'BankAccounts'
 	};
 
 	readonly BankAccountSuccess: IElement = {
@@ -33,7 +38,7 @@ export class BankAccountPageAssertions {
 	myPageElements: IBankAccountPageElements = new BankAccountPageElements();
 
 	verifyBankAccountPage = (): void => {
-		expect(BrowserHelper.isVisible(this.myPageElements.AddAccount)).toBeTruthy();
+		expect(browser.getUrl()).toContain(this.myPageElements.BankAccountUrl.selector);
 	}
 
 	verifyBankAccountAdded = (): void => {
